@@ -16,8 +16,12 @@ imagename = 'your_first_file.fits'
 
 ```
 
-Then, to run the script, run:
-'execfile("beams_script.py")'
+Then, to run the script:
 
+``` python
+
+execfile("beams_script.py")
+
+```
 
 
