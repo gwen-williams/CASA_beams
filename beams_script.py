@@ -8,17 +8,6 @@ Created on Mon Aug 22 17:33:29 2022
 
 import numpy as np
 
-"""
-import argparse
-
-# Take the name of the .fits file as an input arguement:
-parser=argparse.ArgumentParser(description='''Script to retrieve beam information from .fits files with CASA.''')
-parser.add_argument("-I","--imagename",action='store',dest='imagename',default='',type=str,help="Name of .fits file") # default=''
-args=parser.parse_args()
-
-imagename = args.imagename
-"""
-
 
 # Open the image in CASA:
 ia.open(imagename)
@@ -70,7 +59,6 @@ else:
     
     print("BMAJ x BMIN [BPA] = ", np.round(bmaj,4), np.round(bmin,4), np.round(bpa,4))
 
-    
     
     
 # Close the open image:
