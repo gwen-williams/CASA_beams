@@ -10,7 +10,8 @@ The script manages the case where the fits file contains just one beam entry, or
 
 In CASA, one must first define the name of the .fits file like:
 
-'imagename = 'your_first_file.fits'
+
+`imagename = 'your_first_file.fits' '
 
 Then, to run the script, run:
 'execfile("beams_script.py")'
