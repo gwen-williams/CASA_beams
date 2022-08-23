@@ -12,7 +12,7 @@ In CASA, one must first define the name of the .fits file like:
 
 ``` python
 
-imagename = 'your_first_file.fits'
+imagename = 'your_fits_file.fits'
 
 ```
 
